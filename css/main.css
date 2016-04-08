@@ -52,4 +52,11 @@ body {
   width: 30px;
 
   background: url("../images/star.svg") no-repeat center center / contain transparent;
+  animation: animateStar 500ms alternate infinite;
+}
+
+@keyframes animateStar {
+  0% {
+    display: block;
+  }
 }
